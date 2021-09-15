@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.form-card {
+  width: 50%;
+  height: 80vh;
+  display: block;
+  border-radius: 21px;
+  background: #282c34;
+  box-shadow:  24px 24px 48px #1e2126,
+             -24px -24px 48px #323742;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: 10% auto;
+}
+
+input {
+  width: 100%;
+  padding: 0.5em;
+  border-radius: 50px;
+  border: none;
+  margin: 0.8em;
+  text-align: center;
+}
+
+button {
+  padding: 1em;
+  width: 50%;
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #282c34;
+  color: white;
+  border: 1px solid white;
+}
